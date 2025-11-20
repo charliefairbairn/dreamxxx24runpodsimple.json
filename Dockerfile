@@ -1,4 +1,5 @@
 # clean base image containing only comfyui, comfy-cli and comfyui-manager
+# This Dockerfile is configured for RunPod Serverless deployment
 FROM runpod/worker-comfyui:5.5.0-base
 
 # install custom nodes into comfyui

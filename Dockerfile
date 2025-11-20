@@ -1,4 +1,5 @@
 # clean base image containing only comfyui, comfy-cli and comfyui-manager
+# Build trigger: 2025-11-20
 FROM runpod/worker-comfyui:5.5.0-base
 
 # install custom nodes into comfyui
